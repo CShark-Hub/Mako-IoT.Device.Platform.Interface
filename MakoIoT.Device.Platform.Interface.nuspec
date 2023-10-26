@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MakoIoT.Device.Platform.Interface</id>
+    <version>$version$</version>
+    <title>MakoIoT.Device.Platform.Interface</title>
+    <authors>CSHARK</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Device.Platform.Interface</projectUrl>
+    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Device.Platform.Interface" />
+    <copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
+    <description>MAKO-IoT Platform interface library</description>
+    <tags>nanoFramework C# csharp netmf netnf mako-iot platform device</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.14.2" />
+		<dependency id="nanoFramework.Runtime.Events" version="1.11.6" />
+		<dependency id="nanoFramework.System.IO.Streams" version="1.1.38" />
+		<dependency id="nanoFramework.System.Net" version="1.10.62" />
+		<dependency id="nanoFramework.System.Text" version="1.2.37" />
+		<dependency id="nanoFramework.System.Threading" version="1.1.19"  />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\MakoIoT.Device.Platform.Interface\bin\Release\MakoIoT.Device.Platform.Interface.dll" target="lib\MakoIoT.Device.Platform.Interface.dll" />
+    <file src="src\MakoIoT.Device.Platform.Interface\bin\Release\MakoIoT.Device.Platform.Interface.pdb" target="lib\MakoIoT.Device.Platform.Interface.pdb" />
+    <file src="src\MakoIoT.Device.Platform.Interface\bin\Release\MakoIoT.Device.Platform.Interface.pdbx" target="lib\MakoIoT.Device.Platform.Interface.pdbx" />
+    <file src="src\MakoIoT.Device.Platform.Interface\bin\Release\MakoIoT.Device.Platform.Interface.pe" target="lib\MakoIoT.Device.Platform.Interface.pe" />
+    <file src="README.md" target="docs\" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
